@@ -124,3 +124,9 @@ body {
   background-size: 100% 100%, 40px 40px, 40px 40px;
   background-attachment: fixed;
 }
+
+/* White Top Header Text */
+header h1, header p, body > h1, body > p, .header h1, .header p {
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.75);
+}
